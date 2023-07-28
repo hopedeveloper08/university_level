@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="418.0" prefWidth="360.0" spacing="35.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8.0.351" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuController">
+   <children>
+      <Label text="خوش آمدید" textFill="#004002">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="create" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="افزودن حساب جدید">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="dw" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="واریز / برداشت / انتقال">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="info" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="نمایش اطلاعات حساب ها">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="42.0" prefWidth="81.0" text="خروج">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="40.0" right="40.0" top="10.0" />
+   </padding>
+</VBox>
